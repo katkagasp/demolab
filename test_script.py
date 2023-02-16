@@ -23,8 +23,8 @@ df_data.head(10)
 
 #Set environment variable for selecting the number of rows from the dataset
 
-nr_of_rows = 5
-os.environ['NRROWS'] = str(nr_of_rows)
+#nr_of_rows = 5
+#os.environ['NRROWS'] = str(nr_of_rows)
 var = int(os.environ.get('NRROWS', '-1'))
 
 print(var)
